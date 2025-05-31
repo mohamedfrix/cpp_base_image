@@ -32,7 +32,8 @@ RUN apt-get update && \
         autoconf \
         automake \
         libtool \
-        linux-libc-dev && \
+        linux-libc-dev \
+        libsystemd-dev && \
     rm -rf /var/lib/apt/lists/*
 
 # Install vcpkg
